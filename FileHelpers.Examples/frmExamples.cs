@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Examples;
 
 
-namespace ExamplesFramework
+namespace ExamplesFx
 {
     public partial class frmExamples : Form
     {
@@ -18,7 +18,7 @@ namespace ExamplesFramework
         {
             base.OnLoad(e);
 
-            examplesContainer.LoadDemos(ExampleFactory.GetExamples());
+            examplesContainer.LoadExamples(ExamplesFactory.GetExamples());
         }
 
     
